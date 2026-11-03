@@ -1,18 +1,16 @@
-# Quadra Quest — pacote para Claude/GitHub
+# Quadra Quest — protótipo de futsal
 
-Este pacote contém o protótipo estático atual.
+Protótipo web interativo para ensinar fundamentos e decisões de futsal a crianças de 6 a 9 anos.
 
-- `index.html` e `plays.js`: fontes principais da aplicação e catálogo de jogadas.
-- `public/scenes/`: imagens de apoio disponíveis para o trabalho visual.
-- `dist/`: cópia estática pronta para hospedagem que publica a pasta `dist`.
+## Arquivos principais
 
-## Importar para GitHub (sem terminal)
+- `index.html`: interface e lógica interativa do protótipo.
+- `plays.js`: catálogo pedagógico de jogadas por posição.
+- `public/scenes/`: imagens de referência para as câmeras POV e aérea.
+- `dist/`: versão estática pronta para publicação.
 
-1. Crie um repositório privado vazio chamado `quadra-quest` em github.com/new.
-2. Instale e abra o GitHub Desktop; entre na sua conta do GitHub.
-3. Use **File → Clone repository** e clone `quadra-quest` para o computador.
-4. Extraia este pacote e copie o conteúdo da pasta `quadra-quest-github-export` para dentro da pasta clonada.
-5. No GitHub Desktop, escreva a mensagem `Importa protótipo Quadra Quest`, clique **Commit to main** e depois **Push origin**.
-6. No Claude Code, abra a pasta clonada. A integração GitHub do Claude.ai pode servir para analisar arquivos, mas para editar o projeto localmente use Claude Code.
+O protótipo contém 20 ou mais situações para goleiro, fixo, ala e pivô. As melhorias de narração e animação de cada ação ainda podem ser feitas em etapas futuras.
 
-O arquivo `.openai/hosting.json` foi omitido de propósito: ele identifica a hospedagem privada atual do protótipo e não deve ser reaproveitado como configuração do novo repositório.
+## Abrir localmente
+
+Abra `index.html` em um navegador moderno. Para publicar em uma hospedagem estática, use a pasta `dist`.
